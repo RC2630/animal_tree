@@ -1,0 +1,86 @@
+{{clade
+|label1='''Testudines'''
+|1={{clade
+   |label1=[[Pleurodira]]
+   |sublabel1='' (Side-necked turtles) ''
+   |1={{clade
+      |1={{clade <!--extra dummy clade-->
+         |label1=[[Chelidae]]
+         |1=[[File:Erpétologie générale, ou, Histoire naturelle complète des reptiles (Chelus fimbriata).jpg|70px]]
+         }}
+      |2={{clade
+         |label1=[[Pelomedusidae]]
+         |1=[[File:Erpétologie générale, ou, Histoire naturelle complète des reptiles (Pelomedusa subrufa).jpg|70px]]
+         |label2=[[Podocnemididae]]
+         |2=[[File:Erpétologie générale, ou, Histoire naturelle complète des reptiles (Podocnemis expansa).jpg|70px]]
+         }}
+      }}
+   |label2=[[Cryptodira]]
+   |sublabel2='' (Hidden-necked turtles) ''
+   |2={{clade
+      |1={{clade
+         |label1=[[Trionychia]]
+         |sublabel1='' (Softshell turtles) ''
+         |1={{clade
+            |label1=[[Carettochelyidae]] 
+            |sublabel1='' (Pig-nosed turtle) ''
+            |1=[[File:Pig-nosed turtle (Carettochelys insculpta) (cropped).jpg|65px]]
+            |label2=[[Trionychidae]]
+            |2=[[File:Erpétologie générale, ou, Histoire naturelle complète des reptiles (Lissemys punctata).jpg|65px]]
+            }}
+         }}
+      |2={{clade <!--extra dummy clade-->
+         |label1=<!--Durocryptodira--Crawford 2015-->
+         |sublabel1='' (Hardshell turtles) ''
+         |1={{clade
+            |1={{clade
+               |label1=[[Testudinoidea]]
+               |1={{clade
+                  |1={{clade
+                     |label1=[[Emydidae]]
+                     |sublabel1='' (Terrapins) ''
+                     |1=[[File:Emydoidea blandingiiHolbrookV1P03A flipped.jpg|70px]]
+                     |label2=[[Platysternidae]] 
+                     |2=[[File:Erpétologie générale, ou, Histoire naturelle complète des reptiles (Platysternon megacephalum).jpg|70px]]
+                     }}
+                  |2={{clade
+                     <!--|sublabel1=''Pond, river, & wood turtles''-->
+                     |label1=[[Geoemydidae]] 
+                     |1=[[File:Erpétologie générale, ou, Histoire naturelle complète des reptiles (Morenia ocellata).jpg|70px]]
+                     |label2=[[Testudinidae]]
+                     |sublabel2='' (Tortoises) ''
+                     |2=[[File:Erpétologie générale, ou, Histoire naturelle complète des reptiles (Centrochelys sulcata).jpg|70px]]
+                     }}
+                  }}
+               }}
+            |2={{clade
+               |label1=[[Chelonioidea]]
+               |sublabel1='' (Sea turtles) ''
+               |1={{clade
+                  |label1=[[Cheloniidae]]
+                  |1=&nbsp;[[File:Erpétologie générale, ou, Histoire naturelle complète des reptiles (Chelonia mydas).jpg|90px]]
+                  |label2=[[Dermochelyidae]]
+                  |sublabel2='' (Leatherback) ''
+                  |2=&nbsp;[[File:Erpétologie générale, ou, Histoire naturelle complète des reptiles (Dermochelys coriacea).jpg|90px]]
+                  }}
+               |label2=[[Chelydroidea]]<!--Crawford 2015-->
+               |2={{clade
+                  |1={{clade <!--extra dummy clade-->
+                     |label1=[[Chelydridae]]
+                     |1=[[File:Erpétologie générale, ou, Histoire naturelle complète des reptiles (Chelydra serpentina).jpg|70px]]
+                     |sublabel1='' (Snapping turtles) ''
+                     }}
+                  |label2x=[[Kinosternoidea]] <!-- Reptile DB now uses Chelydroidea -->
+                  |2={{clade
+                     |label1=[[Dermatemydidae]]
+                     |1=[[File:ChloremysAbnormisFord white background.jpg|70px]]
+                     |label2=[[Kinosternidae]]
+                     |2=[[File:Erpétologie générale, ou, Histoire naturelle complète des reptiles (Sternotherus odoratus).jpg|70px]]
+                     }}
+                  }}
+               }}
+            }}
+         }}
+      }}
+   }}
+}}

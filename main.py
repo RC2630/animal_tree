@@ -260,18 +260,28 @@ class AnimalTree:
 
 # --------------------------------------------------------------------------------------------------
 
-animalTree: AnimalTree = AnimalTree.parseFromFile("passerines.txt", "PASSERIFORMES")
-animalTree.simplify()
-animalTree.display()
+def parsePasserines() -> None:
+    passerines: AnimalTree = AnimalTree.parseFromFile("passerines.txt", "PASSERIFORMES")
+    passerines.simplify()
+    passerines.display()
+    passerines.selectWithAlias({
+        "Icteridae": "Blackbird",
+        "Turdidae": "Bluebird",
+        "Fringillidae": "Canary",
+        "Alaudidae": "Lark",
+        "Oriolidae": "Oriole",
+        "Muscicapidae": "Robin",
+        "Hirundinidae": "Swallow",
+        "Troglodytidae": "Wren",
+        "Corvidae": "Jay & Raven"
+    }).display()
 
-animalTree.selectWithAlias({
-    "Icteridae": "Blackbird",
-    "Turdidae": "Bluebird",
-    "Fringillidae": "Canary",
-    "Alaudidae": "Lark",
-    "Oriolidae": "Oriole",
-    "Muscicapidae": "Robin",
-    "Hirundinidae": "Swallow",
-    "Troglodytidae": "Wren",
-    "Corvidae": "Jay & Raven"
-}).display()
+def parseTestudines() -> None:
+    testudines: AnimalTree = AnimalTree.parseFromFile("testudines.txt", "TESTUDINES")
+    testudines.simplify()
+    testudines.display()
+
+# --------------------------------------------------------------------------------------------------
+
+parsePasserines()
+parseTestudines()
