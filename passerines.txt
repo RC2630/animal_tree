@@ -1,0 +1,561 @@
+<includeonly>{{Clade |style=font-size:85%;line-height:85%
+|label1=[[Passerine|Passeriformes]]
+|1={{Clade
+   |1={{clade
+      |label1=[[Acanthisitti]] 
+      |1=[[Acanthisittidae]] (New Zealand wrens)
+      }}
+   |label2=[[Eupasseres]]
+   |2={{Clade
+      |label1=[[Tyranni]] |sublabel1x=(suboscines)
+      |1={{Clade hidden |id=Tyranni |expand-text=&nbsp;(suboscines)
+         |label1=[[Eurylaimides]] 
+         |1={{Clade
+            |1={{Clade
+               |1=[[Eurylaimidae]] (eurylaimid broadbills)
+               |2=[[Philepittidae]] (asites)
+               }}
+            |2={{Clade
+               |1=[[Calyptomenidae]] (African and green broadbills)<!--includes Smithornithidae (African broadbills)  -->
+               |2={{Clade
+                  |1=[[Pittidae]] (pittas)
+                  |2=[[Sapayoidae]] (sapayoa)
+                  }}
+               }}
+            }}
+         |label2=[[Tyrannides]]
+         |2={{Clade
+            |label1=[[Furnariida]]
+            |1={{Clade
+               |1={{Clade
+                  |1=[[Melanopareiidae]] (crescent chests)
+                  |2={{Clade
+                     |1=[[Conopophagidae]] (gnateaters)
+                     |2=[[Thamnophilidae]] (antbirds)
+                     }}
+                  }}
+               |2={{Clade
+                  |1=[[Grallariidae]] (antpittas)
+                  |2={{Clade
+                     |1=[[Rhinocryptidae]] (tapaculos)
+                     |2={{Clade
+                        |1=[[Formicariidae]] (antthrushes)
+                        |2={{clade
+                           |1=[[Scleruridae]] (leaftossers)
+                           |2={{clade
+                              |1=[[Dendrocolaptidae]] (woodcreepers)
+                              |2=[[Furnariidae]] (ovenbirds)
+                              }}
+                           }}
+                        }}
+                     }}
+                  }}
+               }}
+            |label2=[[Tyrannida]]
+            |2={{Clade
+               |1=[[Pipridae]] (manakins)
+               |2={{Clade
+                  |1=[[Cotingidae]] (cotingas)
+                  |2={{Clade
+                     |1=[[Tityridae]] (tityras, becards)
+                     |2={{Clade
+                        |1={{clade
+                           |1=[[Onychorhynchidae]] (royal flycatchers  & allies)                        
+                           |2=[[Oxyruncidae]] (sharpbill)
+                           }}
+                        |2={{Clade
+                           |1=[[Pipritidae]] (piprites)
+                           |2={{Clade
+                              |1={{Clade
+                                 |1=[[Platyrinchidae]] (spadebills)
+                                 |2={{Clade
+                                    |1=[[Tachurididae]] (many-coloured rush tyrant)
+                                    |2={{clade
+                                       |1=[[Tyrant flycatcher|Rhynchocyclidae]] (mionectine flycatchers)
+                                       |2=[[Tyrannidae]] (tyrant flycatchers)
+                                       }}
+                                    }}
+                                 }}
+                              }}
+                           }}
+                        }}
+                     }}
+                  }}
+               }}
+            }}
+         }}
+      |label2=[[Passeri]]  |sublabel2x=(oscines)
+      |2={{Clade hidden |expand-text=&nbsp;(oscines)
+         |1={{clade
+            |label1=[[Menurida]]
+            |1={{Clade
+               |2=[[Atrichornithidae]] (scrubbirds)
+               |1=[[Menuridae]] (lyrebirds)
+               }}
+            }}
+         |label2x=[[Euoscines]]
+         |2={{Clade
+            |1={{clade
+               |label1=[[Climacterida]]
+               |1={{Clade
+                  |1=[[Climacteridae]] (Australian treecreepers)
+                  |2=[[Ptilonorhynchidae]] (bowerbirds)
+                  }}
+               }}
+            |2={{Clade
+               |1={{clade
+                  |label1=[[Meliphagida]]
+                  |1={{Clade
+                     |1=[[Maluridae]] (Australasian wrens)
+                     |2={{Clade
+                        |1=[[Dasyornithidae]] (bristlebirds)
+                        |2={{Clade
+                           |1=[[Meliphagidae]] (honeyeaters)
+                           |2={{clade
+                              |1=[[Acanthizidae]] (Australasian warblers)
+                              |2=[[Pardalotidae]] (pardalotes)
+                              }}
+                           }}
+                        }}
+                     }}
+                  }}
+               |2={{Clade
+                  |1={{clade
+                     |label1=[[Orthonychida]]
+                     |1={{Clade
+                        |1=[[Orthonychidae]] (logrunners)
+                        |2=[[Pomatostomidae]] (Australasian babblers)                        
+                        }}
+                     }}
+                  |2={{Clade
+                     |label1=[[Corvides]] 
+                     |1={CORVIDES}
+                     |label2=[[Passerides]] 
+                     |2={PASSERIDES}
+                     }}
+                  }}
+               }}
+            }}
+         }}
+      }}
+   }}
+<!-- end of main tree; contains two subtrees:CORVIDA and PASSERIDA-->
+
+
+|targetA={CORVIDES}
+|subcladeA=
+   {{Clade hidden |id=Corvides
+   |1=[[Cinclosomatidae]] (quail-thrushes, jewel-babblers)
+   |2={{Clade
+      |1=[[Campephagidae]] (cuckooshrikes)
+      |2={{Clade
+         |1={{Clade
+            |1=[[Mohouidae]] (whitehead & allies)
+            |2=[[Neosittidae]] (sittellas)
+            }}
+         |2={{Clade
+            |1={{clade
+               |label1=[[Orioloidea]]
+               |1={{clade
+                  |1=[[Psophodidae]] (whipbirds & allies)
+                  |2={{clade
+                     |1=[[Eulacestomidae]] (ploughbill)
+                     |2={{clade
+                        |1={{clade
+                           |1=[[Falcunculidae]] (shriketits)
+                           |2=[[Oreoicidae]] (Australo-Papuan bellbirds)
+                           }}
+                        |2={{clade
+                           |1={{clade
+                              |1=[[Paramythiidae]] (painted berrypickers)
+                              |2=[[Vireonidae]] (vireos) <!-- includes [[Pteruthiidae]] (Pteruthius, shrike-babblers)-->
+                              }}
+                           |2={{clade
+                              |1=[[Oriolidae]] (orioles, figbirds)
+                              |2=[[Pachycephalidae]] (whistlers)
+                              }}
+                           }}
+                        }}
+                     }}
+                  }}
+               }}
+            |2={{Clade
+               |label1=[[Malaconotoidea]]
+               |1={{Clade
+                  |1=[[Machaerirhynchidae]] (boatbills)
+                  |2={{Clade
+                     |1=[[Artamidae]] (woodswallows, butcherbirds)
+                     |2={{Clade
+                        |1=[[Rhagologidae]] (mottled berryhunter)
+                        |2={{Clade
+                           |1={{clade
+                              |1=[[Malaconotidae]] (bush-shrikes, puffbacks)
+                              |2={{clade
+                                 |1=[[Aegithinidae]] (ioras)
+                                 |2=[[Pityriaseidae]] (bristlehead)
+                                 }}
+                              }}
+                           |2={{clade
+                              |1=[[Platysteiridae]] (wattle-eyes, batsies)
+                              |2=[[Vangidae]] (vangas)
+                              }}
+                           }}
+                        }}
+                     }}
+                  }}
+               |label2=[[Corvoidea]]
+               |2={{Clade
+                  |1=[[Rhipiduridae]] (fantails)
+                  |2={{Clade
+                     |1=[[Dicruridae]] (drongos)
+                     |2={{clade
+                        |1={{clade
+                           |1=[[Monarchidae]] (monarchs)
+                           |2={{clade
+                              |1=[[Ifritidae]] (ifrit)
+                              |2=[[Paradisaeidae]] (birds-of-paradise)
+                              }}
+                           }}
+                        |2={{clade
+                           |1=[[Corcoracidae]] (Australian mudnesters)
+                           |2={{clade
+                              |1=[[Melampittidae]] (melampittas)
+                              |2={{clade
+                                 |1=[[Corvidae]] (crows, jays)
+                                 |2={{clade
+                                    |1=[[Laniidae]] (shrikes)
+                                    |2=[[Platylophidae]] (crested jay)
+                                    }}
+                                 }}
+<!--              |2=[[Lamproliidae]] (silktail, drongo fantail)-->
+                              }}
+                           }}
+                        }}
+                     }}
+                  }}
+               }}
+            }}
+         }}
+      }}
+   }}
+
+|targetB={PASSERIDES}
+|subcladeB=
+   {{clade hidden |id=Passerides
+   |1={{clade
+      |label1x=[[Cnemophiloidea]]
+      |1=[[Cnemophilidae]] (satinbirds)
+      }}
+   |2={{clade
+      |1={{clade
+         |label1x=[[Melanocharitoidea]]
+         |1=[[Melanocharitidae]] (berrypeckers)
+         }}
+      |2={{clade
+         |1={{clade
+            |label1x=[[Callaeoidea]]
+            |1={{clade
+               |1=[[Callaeidae]] (New Zealand wattlebirds)
+               |2=[[Notiomystidae]] (stitchbird)
+               }}
+            }}
+         |2={{clade
+            |1={{clade
+               |1=[[Petroicidae]] (Australian robins)
+               |label2x=[[Eupetidae]] sensu lato <!-- as used by Oliveros et al. The IOC splits the familue-->
+               |2={{clade
+                  |1=[[Eupetidae]] (rail-babbler)
+                  |2={{clade
+                     |1=[[Chaetopidae]] (rock-jumpers)
+                     |2=[[Picathartidae]] (rockfowl)
+                     }}
+                  }}
+               }}
+            |2={{clade
+               |1={{clade
+                  |label1=[[Sylviida]]
+                  |1={SYLVIIDA}
+                  }}
+               |2={{clade
+                  |label1=[[Muscicapida]]
+                  |1={MUSCICAPIDA}
+                  |label2=[[Passerida]]
+                  |2={PASSERIDA}
+                  }}
+               }}
+            }}
+         }}
+      }}
+   <!-- the PASSERIDES subtree has three subtrees: SYLVIIDA,MUSCICAPIDA, and PASSERIDA-->
+
+   |targetA={SYLVIIDA}
+   |subcladeA=         
+       {{clade hidden |id=Sylviida
+       |1={{clade
+          |1=[[Hyliotidae]] (hyliotas)
+          |2=[[Stenostiridae]] (crested flycatchers)
+          }}
+       |2={{clade
+          |label1x=[[Paroidea]]
+          |1={{clade
+             |1=[[Paridae]] (tits, chickadees)
+             |2=[[Remizidae]] (penduline tits)
+             }}           
+          |2={{clade
+             |1={{clade
+                |1=[[Alaudidae]] (larks)
+                |2=[[Panuridae]] (bearded reedling)
+                }}
+             |2={{clade
+                |1=[[Nicatoridae]] (nicators)
+                |2={{clade
+                   |1=[[Macrosphenidae]] (crombecs, African warblers)
+                   |2={{clade
+                      |1=[[Cisticolidae]] (cisticolas)
+                      |2={{clade
+                         |1={{clade
+                            |label1=[[Locustelloidea]]
+                            |1={{clade
+                               |1={{clade
+                                  |1=[[Acrocephalidae]] (acrocephalid warblers)
+                                  |2="[[Graueriidae]]" 
+                                  }}
+                               |2={{clade
+                                  |1=[[Locustellidae]] (grassbirds)
+                                  |2={{clade
+                                     |1=[[Bernieridae]] (Malagasy warblers)
+                                     |2=[[Donacobiidae]] (donacobius)
+                                     }}
+                                  }}
+                               }}
+                            }}
+                         |2={{clade
+                            |1={{clade
+                               |1=[[Hirundinidae]] (martins, swallows)
+                               |2=[[Pnoepygidae]] (wren warblers)
+                               }}                                                                    
+                            |2={{clade
+                               |label1=[[Aegithaloidea]]
+                               |1={{clade
+                                  |1=[[Phylloscopidae]] (leaf-warblers and allies)
+                                  |2={{clade
+                                     |1=[[Hyliidae]] (hylias)
+                                     |2={{clade
+                                        |1=[[Aegithalidae]] (long-tailed tits or bushtits)
+                                        |label2x=[[Scotocercidae]] sensu lato <!-- as used by Oliveros; TiF used Cettiidae broadly -->
+                                        |2={{clade
+                                           |1=[[Erythrocercidae]] (yellow flycatchers)
+                                           |2={{clade
+                                              |1=[[Cettiidae]] (Cettia bush warblers and allies)
+                                              |2=[[Scotocercidae]] (streaked scrub warbler)
+                                              }}
+                                           }}
+                                        }}
+                                     }}
+                                  }}
+                               |label2=[[Sylvioidea]]
+                               |2={{clade
+                                  |1=[[Pycnonotidae]] (bulbuls)
+                                  |2={{clade
+                                     |1={{clade  <!--Sylviidae sensu Oliveros -->
+                                        |1=[[Paradoxornithidae]] (parrotbills, fulvettas)
+                                        |2=[[Sylviidae]] (typical warblers, sylviid babblers)
+                                        }}
+                                     |2={{clade
+                                        |1=[[Zosteropidae]] (white-eyes)
+                                        |2={{clade
+                                           |1=[[Timaliidae]] (babblers, tit-babblers, scimitar bablers)
+                                           |2={{clade
+                                              |1=[[Leiothrichidae]] (laughingthrushes)
+                                              |2=[[Pellorneidae]] (fulvettas, ground babblers)
+                                              }}
+                                           }}
+                                        }}
+                                     }}
+                                  }}
+                               }}
+                            }}
+                         }}
+                      }}
+                   }}
+                }}
+             }}
+          }}
+       }}<!--end SILVIIDA subtree-->
+
+   |targetB={MUSCICAPIDA}
+   |subcladeB=
+      {{clade hidden |id=Muscicapida
+      |1={{clade
+         |label1=[[Bombycilloidea]]
+         |1={{clade
+            |1=[[Dulidae]] (palmchat)
+            |2={{clade
+               |1=[[Bombycillidae]] (waxwings)
+               |2={{clade
+                  |1=[[Ptiliogonatidae]] (silky-flycatchers)
+                  |2={{clade
+                     |1=[[Hylocitreidae]] (hylocitrea)
+                     |2={{clade
+                        |1=[[Hypocoliidae]] (hypocolius)
+                        |2=[[Mohoidae]] (Hawaiian honeyeaters)
+                        }}
+                     }}
+                  }}
+               }}
+            }}
+         }}
+      |2={{clade
+         |1={{clade
+            |label1=[[Muscicapoidea]]
+            |1={{clade
+               |1=[[Elachuridae]] (elechura)
+               |2={{clade
+                  |1=[[Cinclidae]] (dippers)
+                  |2={{clade
+                     |1={{clade
+                        |1=[[Muscicapidae]] (Old World flycatchers, chats)
+                        |2=[[Turdidae]] (thrushes)
+                        }}
+                     |2={{clade
+                        |1=[[Buphagidae]] (oxpeckers)
+                        |2={{clade
+                           |1=[[Mimidae]] (mockingbirds, thrashers)
+                           |2=[[Sturnidae]] (starlings, mynas)
+                           }}
+                        }}
+                     }}
+                  }}
+               }}
+            }}
+         |2={{clade
+            |label1=[[Reguloidea]]
+            |1=[[Regulidae]] (kinglets)
+            |label2=[[Certhioidea]]
+            |2={{clade
+               |1=[[Tichodromidae]] (wallcreeper)
+               |2={{clade
+                  |1=[[Sittidae]] (nuthatches)
+                  |2={{clade
+                     |1={{clade
+                        |1=[[Certhiidae]] (treecreepers)
+                        |2=[[Salpornithidae]]
+                        }}
+                     |2={{clade
+                        |1=[[Polioptilidae]] (gnatcatchers, gnatwrens)
+                        |2=[[Troglodytidae]] (wrens)
+                        }}
+                     }}
+                  }}
+               }}
+            }}
+         }}
+      }}<!--end Muscicapida--->
+
+   |targetC={PASSERIDA}<!-- insert Passerida subtree = Passeroidea in other uses-->
+   |subcladeC=
+      {{clade hidden |id=Passerida
+      |1={{clade
+         |1=[[Modulatricidae]] (dapple-throat & allies) <!--Oliveros includes in Promeropidae; =Arcanatoridae of TiF-->
+         |2=[[Promeropidae]] (sugarbirds)
+         }}
+      |2={{clade
+         |1={{clade
+            |1=[[Dicaeidae]] (flowerpeckers)
+            |2=[[Nectariniidae]] (sunbirds)
+            }}
+         |2={{clade
+            |1={{clade
+               |1=[[Chloropseidae]] (leafbirds)
+               |2=[[Irenidae]] (fairy bluebirds)
+               }}
+            |2={{clade
+               |1=[[Peucedramidae]] (olive warbler)
+               |2={{clade
+                  |1=[[Urocynchramidae]] (Przevalski's finch)
+                  |2={{clade
+                     |1={{clade
+                        |1={{clade
+                           |label1=Phoceoidea <!-- superfamily in Cracraft (2014/H&M4)-->
+                           |sublabel1x=(Estrildid clade)
+                           |1={{clade
+                              |1=[[Ploceidae]] (weavers)
+                              |2={{clade
+                                 |1=[[Estrildidae]] (estrildid finches)
+                                 |2=[[Viduidae]] (indigobirds, whydals)
+                                 }}
+                              }}
+                           }}
+                        |2={{clade
+                           |1=[[Prunellidae]] (accentors)         
+                           |label2x=Passerid clade
+                           |2={{clade
+                              |1=[[Passeridae]] (sparrows)
+                              |2={{clade
+                                 |1=[[Motacillidae]] (wagtails, pipits)
+                                 |2={{clade
+                                    |1=[[Fringillidae]] (finches, euphonias)
+                                    |label2=[[Emberizoidea]]
+                                    |2={EMBERIZOIDEA}
+                                    }}
+                                 }}
+                              }}
+                           }}
+                        }}
+                     }}
+                  }}
+               }}
+            }}
+         }}
+
+      |targetA={EMBERIZOIDEA}
+      |subcladeA=
+         {{clade
+         |1=[[Rhodinocichlidae]] (thrush-tanager)
+         |2={{clade
+            |1={{clade
+               |1=[[Calcariidae]] (longspurs, snow buntings) 
+               |2=[[Emberizidae]] (buntings)
+               }}
+            |2={{clade
+               |1={{clade
+                  |1=[[Cardinalidae]] (cardinal grosbeaks)
+                  |2={{clade
+                     |1=[[Mitrospingidae]] (mitrosingus & allies)
+                     |2=[[Thraupidae]] (tanagers)                                                
+                     }}
+                  }}
+               |2={{clade
+                  |1=[[Passerellidae]] (American sparrows)
+                  |2={{clade
+                     |1={{clade
+                        |1=[[Parulidae]] (wood warblers)
+                        |2={{clade
+                           |1=[[Icteridae]] (New World blackbirds)
+                           |2=[[Icteriidae]] (yellow-breasted chat)
+                           }}
+                        }}
+                     |2={{clade
+                        |1=[[Calyptophilidae]] (chat-tanagers)<!--Oliveros used Calyptophylidae-->
+                        |2={{clade
+                           |1=[[Zeledoniidae]] (wrenthrush)
+                           |2x=?[[Teretistridae]] (Cuban warblers) <!-- not in Oliveros study (speculative position)-->
+                           |label3x=[[Phaenicophilidae]] sensu lato <!-- as used by Oliveros et al -->
+                           |3={{clade
+                              |1=[[Phaenicophilidae]] (Hispaniolan tanagers and allies)
+                              |2={{clade
+                                 |1=[[Nesospingidae]] (Puerto Rican tanager)
+                                 |2=[[Spindalidae]] (spindalises)
+                                 }}
+                              }}
+                           }}
+                        }}
+                     }}
+                  }}
+               }}
+            }}
+         }}<!-- end Emberixoidea subtree-->                                  
+      }}<!-- end Passeroidea / Passerida sensu sticto subtree-->
+   }} <!-- end Passerides subtree -->
+}}
+</includeonly><noinclude>{{documentation}}</noinclude>
