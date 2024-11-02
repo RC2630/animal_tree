@@ -39,7 +39,17 @@ class Node:
 
     def __init__(self: Node, name: str = "", descendants: list[Node] = []) -> None:
         self.name: str = name
-        self.descendants: list[Node] = descendants
+        self.descendants: list[Node] = deepcopy(descendants)
+
+    def isLeaf(self: Node) -> bool:
+        return len(self.descendants) == 0
+
+    def display(self: Node, level: int) -> None:
+        displayName: str = self.name if self.name != "" else f"Clade @ {id(self)}"
+        colon: str = ":" if not self.isLeaf() else ""
+        print(4 * level * " " + displayName + colon)
+        for descendant in self.descendants:
+            descendant.display(level + 1)
 
 # --------------------------------------
 
@@ -60,7 +70,7 @@ class AnimalTree:
             elif token == "}":
                 currentLevel -= 1
             else:
-                levelToNode[currentLevel - 1].descendants.append(Node(token))
+                levelToNode[currentLevel].descendants.append(Node(token))
 
         return AnimalTree(root)
 
@@ -96,11 +106,12 @@ class AnimalTree:
         raise RuntimeError # TODO
     
     def display(self: AnimalTree) -> None:
-        raise RuntimeError # TODO
+        print()
+        self.root.display(level = 0)
 
 # --------------------------------------
 
-print(AnimalTree.parseFromTokens([]))
+AnimalTree.parseFromTokens(['{', 'Phylloscopidae', '{', 'Hyliidae', '{', 'Aegithalidae', '{', 'Erythrocercidae', '{', 'Cettiidae', 'Scotocercidae', '}', '}', '}', '}', '}', '{', 'Pycnonotidae', '{', '{', 'Paradoxornithidae', 'Sylviidae', '}', '{', 'Zosteropidae', '{', 'Timaliidae', '{', 'Leiothrichidae', 'Pellorneidae', '}', '}', '}', '}', '}']).display()
 exit()
 
 animalTree: AnimalTree = AnimalTree.parseFromFile("passerines.txt")
