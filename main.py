@@ -120,6 +120,16 @@ class Node:
                 indexForPointer: int = AnimalTree.findIndexForPointer(trees, pointer)
                 self.descendants[i] = AnimalTree.recombineIntoSingleTree(trees, indexForPointer).root
 
+    def simplify(self: Node) -> None:
+        for i in range(len(self.descendants)):
+            descendant: Node = self.descendants[i]
+            descendant.simplify()
+            if len(descendant.descendants) == 1:
+                broadName: str = descendant.name
+                narrowName: str = descendant.descendants[0].name
+                self.descendants[i] = descendant.descendants[0]
+                self.descendants[i].name = broadName if narrowName == "" else narrowName
+
 # --------------------------------------------------------------------------------------------------
 
 class AnimalTree:
@@ -205,17 +215,21 @@ class AnimalTree:
     def selectWithAlias(self: AnimalTree, animalsWithAlias: list[tuple[str, str]]) -> AnimalTree:
         raise RuntimeError # TODO
     
+    def simplify(self: AnimalTree) -> None:
+        self.root.simplify()
+    
     def display(self: AnimalTree) -> None:
         print()
         self.root.display(level = 0)
 
 # --------------------------------------------------------------------------------------------------
 
-AnimalTree.parseFromFile("passerines.txt", "PASSERIFORMES").display()
+animalTree: AnimalTree = AnimalTree.parseFromFile("passerines.txt", "PASSERIFORMES")
+animalTree.simplify()
+animalTree.display()
 exit()
 
-animalTree: AnimalTree = AnimalTree.parseFromFile("passerines.txt")
-subsetTree: AnimalTree = animalTree.selectWithAlias([
+animalTree.selectWithAlias([
     ("Icteridae", "Blackbird"),
     ("Turdidae", "Bluebird"),
     ("Fringillidae", "Canary"),
@@ -225,6 +239,4 @@ subsetTree: AnimalTree = animalTree.selectWithAlias([
     ("Hirundinidae", "Swallow"),
     ("Troglodytidae", "Wren"),
     ("Corvidae", "Jay & Raven")
-])
-
-subsetTree.display()
+]).display()
