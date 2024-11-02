@@ -111,7 +111,7 @@ class AnimalTree:
 
 # --------------------------------------
 
-AnimalTree.parseFromTokens(['{', 'Phylloscopidae', '{', 'Hyliidae', '{', 'Aegithalidae', '{', 'Erythrocercidae', '{', 'Cettiidae', 'Scotocercidae', '}', '}', '}', '}', '}', '{', 'Pycnonotidae', '{', '{', 'Paradoxornithidae', 'Sylviidae', '}', '{', 'Zosteropidae', '{', 'Timaliidae', '{', 'Leiothrichidae', 'Pellorneidae', '}', '}', '}', '}', '}']).display()
+AnimalTree.parseFromFile("passerines.txt").display()
 exit()
 
 animalTree: AnimalTree = AnimalTree.parseFromFile("passerines.txt")
