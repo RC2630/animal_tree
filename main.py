@@ -93,6 +93,9 @@ class Node:
         self.name: str = name
         self.descendants: list[Node] = deepcopy(descendants)
 
+    def __eq__(self: Node, other: object) -> bool:
+        return id(self) == id(other)
+
     def isLeaf(self: Node) -> bool:
         return len(self.descendants) == 0
     
@@ -104,9 +107,8 @@ class Node:
 
     def display(self: Node, level: int) -> None:
         displayName: str = self.name if self.name != "" else f"Clade @ {id(self)}"
-        suffix: str = f" ({self.numLeaves()} leaf nodes)" if "idae" not in self.name else ""
-        colon: str = ":" if not self.isLeaf() else ""
-        print(2 * level * " " + displayName + suffix + colon)
+        suffix: str = f" ({self.numLeaves()} leaf nodes):" if not self.isLeaf() else ""
+        print(2 * level * " " + displayName + suffix)
         for descendant in self.descendants:
             descendant.display(level + 1)
 
@@ -129,6 +131,24 @@ class Node:
                 narrowName: str = descendant.descendants[0].name
                 self.descendants[i] = descendant.descendants[0]
                 self.descendants[i].name = broadName if narrowName == "" else narrowName
+
+    def applyAliases(self: Node, aliases: dict[str, str]) -> None:
+        if self.name in aliases:
+            self.name = aliases[self.name]
+        for descendant in self.descendants:
+            descendant.applyAliases(aliases)
+    
+    def prune(self: Node, animals: list[str]) -> None:
+        indexesToDelete: list[int] = []
+        for i in range(len(self.descendants)):
+            descendant: Node = self.descendants[i]
+            if not descendant.isLeaf():
+                descendant.prune(animals)
+            if descendant.isLeaf() and descendant.name not in animals:
+                indexesToDelete.append(i)
+        indexesToDelete.reverse()
+        for indexToDelete in indexesToDelete:
+            del self.descendants[indexToDelete]
 
 # --------------------------------------------------------------------------------------------------
 
@@ -210,13 +230,29 @@ class AnimalTree:
         self.root: Node = root
 
     def select(self: AnimalTree, animals: list[str]) -> AnimalTree:
-        return self.selectWithAlias([(animal, animal) for animal in animals])
+        return self.selectWithAlias({animal: animal for animal in animals})
     
-    def selectWithAlias(self: AnimalTree, animalsWithAlias: list[tuple[str, str]]) -> AnimalTree:
-        raise RuntimeError # TODO
+    def prune(self: AnimalTree, animals: list[str]) -> AnimalTree:
+        newTree: AnimalTree = deepcopy(self)
+        newTree.root.prune(animals)
+        return newTree
+    
+    def applyAliases(self: AnimalTree, aliases: dict[str, str]) -> None:
+        self.root.applyAliases(aliases)
+
+    def selectWithAlias(self: AnimalTree, animalsWithAlias: dict[str, str]) -> AnimalTree:
+        prunedTree: AnimalTree = self.prune([animal for animal, alias in animalsWithAlias.items()])
+        prunedTree.simplify()
+        prunedTree.applyAliases(animalsWithAlias)
+        return prunedTree
     
     def simplify(self: AnimalTree) -> None:
         self.root.simplify()
+        if len(self.root.descendants) == 1:
+            rootName: str = self.root.name
+            onlyDescendantName: str = self.root.descendants[0].name
+            self.root = self.root.descendants[0]
+            self.root.name = rootName if rootName != "" else onlyDescendantName
     
     def display(self: AnimalTree) -> None:
         print()
@@ -227,16 +263,15 @@ class AnimalTree:
 animalTree: AnimalTree = AnimalTree.parseFromFile("passerines.txt", "PASSERIFORMES")
 animalTree.simplify()
 animalTree.display()
-exit()
 
-animalTree.selectWithAlias([
-    ("Icteridae", "Blackbird"),
-    ("Turdidae", "Bluebird"),
-    ("Fringillidae", "Canary"),
-    ("Alaudidae", "Lark"),
-    ("Oriolidae", "Oriole"),
-    ("Muscicapidae", "Robin"),
-    ("Hirundinidae", "Swallow"),
-    ("Troglodytidae", "Wren"),
-    ("Corvidae", "Jay & Raven")
-]).display()
+animalTree.selectWithAlias({
+    "Icteridae": "Blackbird",
+    "Turdidae": "Bluebird",
+    "Fringillidae": "Canary",
+    "Alaudidae": "Lark",
+    "Oriolidae": "Oriole",
+    "Muscicapidae": "Robin",
+    "Hirundinidae": "Swallow",
+    "Troglodytidae": "Wren",
+    "Corvidae": "Jay & Raven"
+}).display()
