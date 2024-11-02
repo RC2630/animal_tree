@@ -1,0 +1,333 @@
+PASSERIFORMES (2 descendants):
+    Clade @ 2208791908704 (1 descendants):
+        Acanthisittidae
+    Clade @ 2208791908848 (2 descendants):
+        Clade @ 2208791908896 (2 descendants):
+            Clade @ 2208791908944 (2 descendants):
+                Clade @ 2208791908992 (2 descendants):
+                    Eurylaimidae
+                    Philepittidae
+                Clade @ 2208791909136 (2 descendants):
+                    Calyptomenidae
+                    Clade @ 2208791909232 (2 descendants):
+                        Pittidae
+                        Sapayoidae
+            Clade @ 2208791909376 (2 descendants):
+                Clade @ 2208791909424 (2 descendants):
+                    Clade @ 2208791909472 (2 descendants):
+                        Melanopareiidae
+                        Clade @ 2208791909568 (2 descendants):
+                            Conopophagidae
+                            Thamnophilidae
+                    Clade @ 2208791909712 (2 descendants):
+                        Grallariidae
+                        Clade @ 2208791909808 (2 descendants):
+                            Rhinocryptidae
+                            Clade @ 2208791909952 (2 descendants):
+                                Formicariidae
+                                Clade @ 2208791910096 (2 descendants):
+                                    Scleruridae
+                                    Clade @ 2208791910192 (2 descendants):
+                                        Dendrocolaptidae
+                                        Furnariidae
+                Clade @ 2208791910336 (2 descendants):
+                    Pipridae
+                    Clade @ 2208791910432 (2 descendants):
+                        Cotingidae
+                        Clade @ 2208791910528 (2 descendants):
+                            Tityridae
+                            Clade @ 2208791910624 (2 descendants):
+                                Clade @ 2208791910672 (2 descendants):
+                                    Onychorhynchidae
+                                    Oxyruncidae
+                                Clade @ 2208791910816 (2 descendants):
+                                    Pipritidae
+                                    Clade @ 2208791910912 (1 descendants):
+                                        Clade @ 2208791910960 (2 descendants):
+                                            Platyrinchidae
+                                            Clade @ 2208791911056 (2 descendants):
+                                                Tachurididae
+                                                Clade @ 2208791911152 (2 descendants):
+                                                    Rhynchocyclidae
+                                                    Tyrannidae
+        Clade @ 2208791845136 (2 descendants):
+            Clade @ 2208791845040 (1 descendants):
+                Clade @ 2208791911248 (2 descendants):
+                    Atrichornithidae
+                    Menuridae
+            Clade @ 2208791911392 (2 descendants):
+                Clade @ 2208791911440 (1 descendants):
+                    Clade @ 2208791911488 (2 descendants):
+                        Climacteridae
+                        Ptilonorhynchidae
+                Clade @ 2208791911632 (2 descendants):
+                    Clade @ 2208791911680 (1 descendants):
+                        Clade @ 2208791911728 (2 descendants):
+                            Maluridae
+                            Clade @ 2208791911824 (2 descendants):
+                                Dasyornithidae
+                                Clade @ 2208791911920 (2 descendants):
+                                    Meliphagidae
+                                    Clade @ 2208791912016 (2 descendants):
+                                        Acanthizidae
+                                        Pardalotidae
+                    Clade @ 2208791912160 (2 descendants):
+                        Clade @ 2208791912208 (1 descendants):
+                            Clade @ 2208791912256 (2 descendants):
+                                Orthonychidae
+                                Pomatostomidae
+                        Clade @ 2208791912400 (2 descendants):
+                            @CORVIDES (0 descendants)
+                            @PASSERIDES (0 descendants)
+
+CORVIDES (2 descendants):
+    Cinclosomatidae
+    Clade @ 2208791912688 (2 descendants):
+        Campephagidae
+        Clade @ 2208791912784 (2 descendants):
+            Clade @ 2208791912832 (2 descendants):
+                Mohouidae
+                Neosittidae
+            Clade @ 2208791912976 (2 descendants):
+                Clade @ 2208791913024 (1 descendants):
+                    Clade @ 2208791913072 (2 descendants):
+                        Psophodidae
+                        Clade @ 2208791913168 (2 descendants):
+                            Eulacestomidae
+                            Clade @ 2208791913264 (2 descendants):
+                                Clade @ 2208791913312 (2 descendants):
+                                    Falcunculidae
+                                    Oreoicidae
+                                Clade @ 2208791913456 (2 descendants):
+                                    Clade @ 2208791913504 (2 descendants):
+                                        Paramythiidae
+                                        Vireonidae
+                                    Clade @ 2208791913648 (2 descendants):
+                                        Oriolidae
+                                        Pachycephalidae
+                Clade @ 2208791913792 (2 descendants):
+                    Clade @ 2208791913840 (2 descendants):
+                        Machaerirhynchidae
+                        Clade @ 2208791913936 (2 descendants):
+                            Artamidae
+                            Clade @ 2208791914032 (2 descendants):
+                                Rhagologidae
+                                Clade @ 2208791914128 (2 descendants):
+                                    Clade @ 2208791914176 (2 descendants):
+                                        Malaconotidae
+                                        Clade @ 2208791914272 (2 descendants):
+                                            Aegithinidae
+                                            Pityriaseidae
+                                    Clade @ 2208791914416 (2 descendants):
+                                        Platysteiridae
+                                        Vangidae
+                    Clade @ 2208791914560 (2 descendants):
+                        Rhipiduridae
+                        Clade @ 2208791914656 (2 descendants):
+                            Dicruridae
+                            Clade @ 2208791914752 (2 descendants):
+                                Clade @ 2208791914800 (2 descendants):
+                                    Monarchidae
+                                    Clade @ 2208791914896 (2 descendants):
+                                        Ifritidae
+                                        Paradisaeidae
+                                Clade @ 2208791915040 (2 descendants):
+                                    Corcoracidae
+                                    Clade @ 2208791915136 (2 descendants):
+                                        Melampittidae
+                                        Clade @ 2208791915232 (2 descendants):
+                                            Corvidae
+                                            Clade @ 2208791915328 (2 descendants):
+                                                Laniidae
+                                                Platylophidae
+
+PASSERIDES (2 descendants):
+    Clade @ 2208791915568 (1 descendants):
+        Cnemophilidae
+    Clade @ 2208791915664 (2 descendants):
+        Clade @ 2208791915712 (1 descendants):
+            Melanocharitidae
+        Clade @ 2208791915808 (2 descendants):
+            Clade @ 2208791915856 (1 descendants):
+                Clade @ 2208791915904 (2 descendants):
+                    Callaeidae
+                    Notiomystidae
+            Clade @ 2208791916048 (2 descendants):
+                Clade @ 2208791916096 (2 descendants):
+                    Petroicidae
+                    Clade @ 2208791916192 (2 descendants):
+                        Eupetidae
+                        Clade @ 2208791916288 (2 descendants):
+                            Chaetopidae
+                            Picathartidae
+                Clade @ 2208791916432 (2 descendants):
+                    Clade @ 2208791916480 (1 descendants):
+                        @SYLVIIDA (0 descendants)
+                    Clade @ 2208791916576 (2 descendants):
+                        @MUSCICAPIDA (0 descendants)
+                        @PASSERIDA (0 descendants)
+
+SYLVIIDA (2 descendants):
+    Clade @ 2208791916816 (2 descendants):
+        Hyliotidae
+        Stenostiridae
+    Clade @ 2208791916960 (2 descendants):
+        Clade @ 2208791917008 (2 descendants):
+            Paridae
+            Remizidae
+        Clade @ 2208791917152 (2 descendants):
+            Clade @ 2208791917200 (2 descendants):
+                Alaudidae
+                Panuridae
+            Clade @ 2208791917344 (2 descendants):
+                Nicatoridae
+                Clade @ 2208791917440 (2 descendants):
+                    Macrosphenidae
+                    Clade @ 2208791917536 (2 descendants):
+                        Cisticolidae
+                        Clade @ 2208791917632 (2 descendants):
+                            Clade @ 2208791917680 (1 descendants):
+                                Clade @ 2208791917728 (2 descendants):
+                                    Clade @ 2208791917776 (2 descendants):
+                                        Acrocephalidae
+                                        Graueriidae
+                                    Clade @ 2208791917920 (2 descendants):
+                                        Locustellidae
+                                        Clade @ 2208791918016 (2 descendants):
+                                            Bernieridae
+                                            Donacobiidae
+                            Clade @ 2208791918160 (2 descendants):
+                                Clade @ 2208791918208 (2 descendants):
+                                    Hirundinidae
+                                    Pnoepygidae
+                                Clade @ 2208791918352 (2 descendants):
+                                    Clade @ 2208791918400 (2 descendants):
+                                        Phylloscopidae
+                                        Clade @ 2208791918496 (2 descendants):
+                                            Hyliidae
+                                            Clade @ 2208791918592 (2 descendants):
+                                                Aegithalidae
+                                                Clade @ 2208791918688 (2 descendants):
+                                                    Erythrocercidae
+                                                    Clade @ 2208791918784 (2 descendants):
+                                                        Cettiidae
+                                                        Scotocercidae
+                                    Clade @ 2208791918928 (2 descendants):
+                                        Pycnonotidae
+                                        Clade @ 2208791919024 (2 descendants):
+                                            Clade @ 2208791919072 (2 descendants):
+                                                Paradoxornithidae
+                                                Sylviidae
+                                            Clade @ 2208791919216 (2 descendants):
+                                                Zosteropidae
+                                                Clade @ 2208791919312 (2 descendants):
+                                                    Timaliidae
+                                                    Clade @ 2208791919408 (2 descendants):
+                                                        Leiothrichidae
+                                                        Pellorneidae
+
+MUSCICAPIDA (2 descendants):
+    Clade @ 2208791919648 (1 descendants):
+        Clade @ 2208791919696 (2 descendants):
+            Dulidae
+            Clade @ 2208791919792 (2 descendants):
+                Bombycillidae
+                Clade @ 2208791919888 (2 descendants):
+                    Ptiliogonatidae
+                    Clade @ 2208791919984 (2 descendants):
+                        Hylocitreidae
+                        Clade @ 2208791920080 (2 descendants):
+                            Hypocoliidae
+                            Mohoidae
+    Clade @ 2208791920224 (2 descendants):
+        Clade @ 2208791920272 (1 descendants):
+            Clade @ 2208791920320 (2 descendants):
+                Elachuridae
+                Clade @ 2208791920416 (2 descendants):
+                    Cinclidae
+                    Clade @ 2208791920512 (2 descendants):
+                        Clade @ 2208791920560 (2 descendants):
+                            Muscicapidae
+                            Turdidae
+                        Clade @ 2208791969920 (2 descendants):
+                            Buphagidae
+                            Clade @ 2208791970016 (2 descendants):
+                                Mimidae
+                                Sturnidae
+        Clade @ 2208791970160 (2 descendants):
+            Regulidae
+            Clade @ 2208791970256 (2 descendants):
+                Tichodromidae
+                Clade @ 2208791970352 (2 descendants):
+                    Sittidae
+                    Clade @ 2208791970448 (2 descendants):
+                        Clade @ 2208791970496 (2 descendants):
+                            Certhiidae
+                            Salpornithidae
+                        Clade @ 2208791970640 (2 descendants):
+                            Polioptilidae
+                            Troglodytidae
+
+PASSERIDA (2 descendants):
+    Clade @ 2208791970880 (2 descendants):
+        Modulatricidae
+        Promeropidae
+    Clade @ 2208791971024 (2 descendants):
+        Clade @ 2208791971072 (2 descendants):
+            Dicaeidae
+            Nectariniidae
+        Clade @ 2208791971216 (2 descendants):
+            Clade @ 2208791971264 (2 descendants):
+                Chloropseidae
+                Irenidae
+            Clade @ 2208791971408 (2 descendants):
+                Peucedramidae
+                Clade @ 2208791971504 (2 descendants):
+                    Urocynchramidae
+                    Clade @ 2208791971600 (1 descendants):
+                        Clade @ 2208791971648 (2 descendants):
+                            Clade @ 2208791971696 (1 descendants):
+                                Clade @ 2208791971744 (2 descendants):
+                                    Ploceidae
+                                    Clade @ 2208791971840 (2 descendants):
+                                        Estrildidae
+                                        Viduidae
+                            Clade @ 2208791971984 (2 descendants):
+                                Prunellidae
+                                Clade @ 2208791972080 (2 descendants):
+                                    Passeridae
+                                    Clade @ 2208791972176 (2 descendants):
+                                        Motacillidae
+                                        Clade @ 2208791972272 (2 descendants):
+                                            Fringillidae
+                                            @EMBERIZOIDEA (0 descendants)
+
+EMBERIZOIDEA (2 descendants):
+    Rhodinocichlidae
+    Clade @ 2208791972560 (2 descendants):
+        Clade @ 2208791972608 (2 descendants):
+            Calcariidae
+            Emberizidae
+        Clade @ 2208791972752 (2 descendants):
+            Clade @ 2208791972800 (2 descendants):
+                Cardinalidae
+                Clade @ 2208791972896 (2 descendants):
+                    Mitrospingidae
+                    Thraupidae
+            Clade @ 2208791973040 (2 descendants):
+                Passerellidae
+                Clade @ 2208791973136 (2 descendants):
+                    Clade @ 2208791973184 (2 descendants):
+                        Parulidae
+                        Clade @ 2208791973280 (2 descendants):
+                            Icteridae
+                            Icteriidae
+                    Clade @ 2208791973424 (2 descendants):
+                        Calyptophilidae
+                        Clade @ 2208791973520 (2 descendants):
+                            Zeledoniidae
+                            Clade @ 2208791973616 (2 descendants):
+                                Phaenicophilidae
+                                Clade @ 2208791973712 (2 descendants):
+                                    Nesospingidae
+                                    Spindalidae

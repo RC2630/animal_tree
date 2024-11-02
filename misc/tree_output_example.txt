@@ -1,0 +1,321 @@
+PASSERIFORMES (153 leaf nodes):
+  Clade @ 2577228751520 (1 leaf nodes):
+    Acanthisittidae
+  Clade @ 2577228751664 (152 leaf nodes):
+    Clade @ 2577228751712 (24 leaf nodes):
+      Clade @ 2577228751760 (5 leaf nodes):
+        Clade @ 2577228751808 (2 leaf nodes):
+          Eurylaimidae
+          Philepittidae
+        Clade @ 2577228867264 (3 leaf nodes):
+          Calyptomenidae
+          Clade @ 2577228868032 (2 leaf nodes):
+            Pittidae
+            Sapayoidae
+      Clade @ 2577228752048 (19 leaf nodes):
+        Clade @ 2577228752096 (9 leaf nodes):
+          Clade @ 2577228752144 (3 leaf nodes):
+            Melanopareiidae
+            Clade @ 2577228752240 (2 leaf nodes):
+              Conopophagidae
+              Thamnophilidae
+          Clade @ 2577228752384 (6 leaf nodes):
+            Grallariidae
+            Clade @ 2577228752480 (5 leaf nodes):
+              Rhinocryptidae
+              Clade @ 2577228752624 (4 leaf nodes):
+                Formicariidae
+                Clade @ 2577228752768 (3 leaf nodes):
+                  Scleruridae
+                  Clade @ 2577228752864 (2 leaf nodes):
+                    Dendrocolaptidae
+                    Furnariidae
+        Clade @ 2577228753008 (10 leaf nodes):
+          Pipridae
+          Clade @ 2577228753104 (9 leaf nodes):
+            Cotingidae
+            Clade @ 2577228753200 (8 leaf nodes):
+              Tityridae
+              Clade @ 2577228753296 (7 leaf nodes):
+                Clade @ 2577228753344 (2 leaf nodes):
+                  Onychorhynchidae
+                  Oxyruncidae
+                Clade @ 2577228753488 (5 leaf nodes):
+                  Pipritidae
+                  Clade @ 2577228753584 (4 leaf nodes):
+                    Clade @ 2577228753632 (4 leaf nodes):
+                      Platyrinchidae
+                      Clade @ 2577228753728 (3 leaf nodes):
+                        Tachurididae
+                        Clade @ 2577228753824 (2 leaf nodes):
+                          Rhynchocyclidae
+                          Tyrannidae
+    Clade @ 2577228753968 (128 leaf nodes):
+      Clade @ 2577228754016 (2 leaf nodes):
+        Clade @ 2577228754064 (2 leaf nodes):
+          Atrichornithidae
+          Menuridae
+      Clade @ 2577228754208 (126 leaf nodes):
+        Clade @ 2577228754256 (2 leaf nodes):
+          Clade @ 2577228754304 (2 leaf nodes):
+            Climacteridae
+            Ptilonorhynchidae
+        Clade @ 2577228754448 (124 leaf nodes):
+          Clade @ 2577228754496 (5 leaf nodes):
+            Clade @ 2577228754544 (5 leaf nodes):
+              Maluridae
+              Clade @ 2577228754640 (4 leaf nodes):
+                Dasyornithidae
+                Clade @ 2577228754736 (3 leaf nodes):
+                  Meliphagidae
+                  Clade @ 2577228754832 (2 leaf nodes):
+                    Acanthizidae
+                    Pardalotidae
+          Clade @ 2577228754976 (119 leaf nodes):
+            Clade @ 2577228755024 (2 leaf nodes):
+              Clade @ 2577228755072 (2 leaf nodes):
+                Orthonychidae
+                Pomatostomidae
+            Clade @ 2577228755216 (117 leaf nodes):
+              CORVIDES (30 leaf nodes):
+                Cinclosomatidae
+                Clade @ 2577228755504 (29 leaf nodes):
+                  Campephagidae
+                  Clade @ 2577228755600 (28 leaf nodes):
+                    Clade @ 2577228755648 (2 leaf nodes):
+                      Mohouidae
+                      Neosittidae
+                    Clade @ 2577228755792 (26 leaf nodes):
+                      Clade @ 2577228755840 (8 leaf nodes):
+                        Clade @ 2577228755888 (8 leaf nodes):
+                          Psophodidae
+                          Clade @ 2577228755984 (7 leaf nodes):
+                            Eulacestomidae
+                            Clade @ 2577228756080 (6 leaf nodes):
+                              Clade @ 2577228756128 (2 leaf nodes):
+                                Falcunculidae
+                                Oreoicidae
+                              Clade @ 2577228756272 (4 leaf nodes):
+                                Clade @ 2577228756320 (2 leaf nodes):
+                                  Paramythiidae
+                                  Vireonidae
+                                Clade @ 2577228756464 (2 leaf nodes):
+                                  Oriolidae
+                                  Pachycephalidae
+                      Clade @ 2577228756608 (18 leaf nodes):
+                        Clade @ 2577228756656 (8 leaf nodes):
+                          Machaerirhynchidae
+                          Clade @ 2577228756752 (7 leaf nodes):
+                            Artamidae
+                            Clade @ 2577228756848 (6 leaf nodes):
+                              Rhagologidae
+                              Clade @ 2577228756944 (5 leaf nodes):
+                                Clade @ 2577228756992 (3 leaf nodes):
+                                  Malaconotidae
+                                  Clade @ 2577228757088 (2 leaf nodes):
+                                    Aegithinidae
+                                    Pityriaseidae
+                                Clade @ 2577228757232 (2 leaf nodes):
+                                  Platysteiridae
+                                  Vangidae
+                        Clade @ 2577228757376 (10 leaf nodes):
+                          Rhipiduridae
+                          Clade @ 2577228757472 (9 leaf nodes):
+                            Dicruridae
+                            Clade @ 2577228757568 (8 leaf nodes):
+                              Clade @ 2577228757616 (3 leaf nodes):
+                                Monarchidae
+                                Clade @ 2577228757712 (2 leaf nodes):
+                                  Ifritidae
+                                  Paradisaeidae
+                              Clade @ 2577228757856 (5 leaf nodes):
+                                Corcoracidae
+                                Clade @ 2577228757952 (4 leaf nodes):
+                                  Melampittidae
+                                  Clade @ 2577228758048 (3 leaf nodes):
+                                    Corvidae
+                                    Clade @ 2577228758144 (2 leaf nodes):
+                                      Laniidae
+                                      Platylophidae
+              PASSERIDES (87 leaf nodes):
+                Clade @ 2577228758384 (1 leaf nodes):
+                  Cnemophilidae
+                Clade @ 2577228758480 (86 leaf nodes):
+                  Clade @ 2577228758528 (1 leaf nodes):
+                    Melanocharitidae
+                  Clade @ 2577228758624 (85 leaf nodes):
+                    Clade @ 2577228758672 (2 leaf nodes):
+                      Clade @ 2577228758720 (2 leaf nodes):
+                        Callaeidae
+                        Notiomystidae
+                    Clade @ 2577228758864 (83 leaf nodes):
+                      Clade @ 2577228758912 (4 leaf nodes):
+                        Petroicidae
+                        Clade @ 2577228759008 (3 leaf nodes):
+                          Eupetidae
+                          Clade @ 2577228939392 (2 leaf nodes):
+                            Chaetopidae
+                            Picathartidae
+                      Clade @ 2577228939536 (79 leaf nodes):
+                        Clade @ 2577228939584 (29 leaf nodes):
+                          SYLVIIDA (29 leaf nodes):
+                            Clade @ 2577228939920 (2 leaf nodes):
+                              Hyliotidae
+                              Stenostiridae
+                            Clade @ 2577228940064 (27 leaf nodes):
+                              Clade @ 2577228940112 (2 leaf nodes):
+                                Paridae
+                                Remizidae
+                              Clade @ 2577228940256 (25 leaf nodes):
+                                Clade @ 2577228940304 (2 leaf nodes):
+                                  Alaudidae
+                                  Panuridae
+                                Clade @ 2577228940448 (23 leaf nodes):
+                                  Nicatoridae
+                                  Clade @ 2577228940544 (22 leaf nodes):
+                                    Macrosphenidae
+                                    Clade @ 2577228940640 (21 leaf nodes):
+                                      Cisticolidae
+                                      Clade @ 2577228940736 (20 leaf nodes):
+                                        Clade @ 2577228940784 (5 leaf nodes):
+                                          Clade @ 2577228940832 (5 leaf nodes):
+                                            Clade @ 2577228940880 (2 leaf nodes):
+                                              Acrocephalidae
+                                              Graueriidae
+                                            Clade @ 2577228941024 (3 leaf nodes):
+                                              Locustellidae
+                                              Clade @ 2577228941120 (2 leaf nodes):
+                                                Bernieridae
+                                                Donacobiidae
+                                        Clade @ 2577228941264 (15 leaf nodes):
+                                          Clade @ 2577228941312 (2 leaf nodes):
+                                            Hirundinidae
+                                            Pnoepygidae
+                                          Clade @ 2577228941456 (13 leaf nodes):
+                                            Clade @ 2577228941504 (6 leaf nodes):
+                                              Phylloscopidae
+                                              Clade @ 2577228941600 (5 leaf nodes):
+                                                Hyliidae
+                                                Clade @ 2577228941696 (4 leaf nodes):
+                                                  Aegithalidae
+                                                  Clade @ 2577228941792 (3 leaf nodes):
+                                                    Erythrocercidae
+                                                    Clade @ 2577228941888 (2 leaf nodes):
+                                                      Cettiidae
+                                                      Scotocercidae
+                                            Clade @ 2577228942032 (7 leaf nodes):
+                                              Pycnonotidae
+                                              Clade @ 2577228942128 (6 leaf nodes):
+                                                Clade @ 2577228942176 (2 leaf nodes):
+                                                  Paradoxornithidae
+                                                  Sylviidae
+                                                Clade @ 2577228942320 (4 leaf nodes):
+                                                  Zosteropidae
+                                                  Clade @ 2577228942416 (3 leaf nodes):
+                                                    Timaliidae
+                                                    Clade @ 2577228942512 (2 leaf nodes):
+                                                      Leiothrichidae
+                                                      Pellorneidae
+                        Clade @ 2577228939680 (50 leaf nodes):
+                          MUSCICAPIDA (20 leaf nodes):
+                            Clade @ 2577228942752 (6 leaf nodes):
+                              Clade @ 2577228942800 (6 leaf nodes):
+                                Dulidae
+                                Clade @ 2577228942896 (5 leaf nodes):
+                                  Bombycillidae
+                                  Clade @ 2577228942992 (4 leaf nodes):
+                                    Ptiliogonatidae
+                                    Clade @ 2577228943088 (3 leaf nodes):
+                                      Hylocitreidae
+                                      Clade @ 2577228943184 (2 leaf nodes):
+                                        Hypocoliidae
+                                        Mohoidae
+                            Clade @ 2577228943328 (14 leaf nodes):
+                              Clade @ 2577228943376 (7 leaf nodes):
+                                Clade @ 2577228943424 (7 leaf nodes):
+                                  Elachuridae
+                                  Clade @ 2577228943520 (6 leaf nodes):
+                                    Cinclidae
+                                    Clade @ 2577228943616 (5 leaf nodes):
+                                      Clade @ 2577228943664 (2 leaf nodes):
+                                        Muscicapidae
+                                        Turdidae
+                                      Clade @ 2577228943808 (3 leaf nodes):
+                                        Buphagidae
+                                        Clade @ 2577228943904 (2 leaf nodes):
+                                          Mimidae
+                                          Sturnidae
+                              Clade @ 2577228944048 (7 leaf nodes):
+                                Regulidae
+                                Clade @ 2577228944144 (6 leaf nodes):
+                                  Tichodromidae
+                                  Clade @ 2577228944240 (5 leaf nodes):
+                                    Sittidae
+                                    Clade @ 2577228944336 (4 leaf nodes):
+                                      Clade @ 2577228944384 (2 leaf nodes):
+                                        Certhiidae
+                                        Salpornithidae
+                                      Clade @ 2577228944528 (2 leaf nodes):
+                                        Polioptilidae
+                                        Troglodytidae
+                          PASSERIDA (30 leaf nodes):
+                            Clade @ 2577228944768 (2 leaf nodes):
+                              Modulatricidae
+                              Promeropidae
+                            Clade @ 2577228944912 (28 leaf nodes):
+                              Clade @ 2577228944960 (2 leaf nodes):
+                                Dicaeidae
+                                Nectariniidae
+                              Clade @ 2577228945104 (26 leaf nodes):
+                                Clade @ 2577228945152 (2 leaf nodes):
+                                  Chloropseidae
+                                  Irenidae
+                                Clade @ 2577228945296 (24 leaf nodes):
+                                  Peucedramidae
+                                  Clade @ 2577228945392 (23 leaf nodes):
+                                    Urocynchramidae
+                                    Clade @ 2577228945488 (22 leaf nodes):
+                                      Clade @ 2577228945536 (22 leaf nodes):
+                                        Clade @ 2577228945584 (3 leaf nodes):
+                                          Clade @ 2577228945632 (3 leaf nodes):
+                                            Ploceidae
+                                            Clade @ 2577228945728 (2 leaf nodes):
+                                              Estrildidae
+                                              Viduidae
+                                        Clade @ 2577228945872 (19 leaf nodes):
+                                          Prunellidae
+                                          Clade @ 2577228945968 (18 leaf nodes):
+                                            Passeridae
+                                            Clade @ 2577228946064 (17 leaf nodes):
+                                              Motacillidae
+                                              Clade @ 2577228946160 (16 leaf nodes):
+                                                Fringillidae
+                                                EMBERIZOIDEA (15 leaf nodes):
+                                                  Rhodinocichlidae
+                                                  Clade @ 2577228946448 (14 leaf nodes):
+                                                    Clade @ 2577228946496 (2 leaf nodes):
+                                                      Calcariidae
+                                                      Emberizidae
+                                                    Clade @ 2577228946640 (12 leaf nodes):
+                                                      Clade @ 2577228946688 (3 leaf nodes):
+                                                        Cardinalidae
+                                                        Clade @ 2577228946784 (2 leaf nodes):
+                                                          Mitrospingidae
+                                                          Thraupidae
+                                                      Clade @ 2577228946928 (9 leaf nodes):
+                                                        Passerellidae
+                                                        Clade @ 2577228947024 (8 leaf nodes):
+                                                          Clade @ 2577228947072 (3 leaf nodes):
+                                                            Parulidae
+                                                            Clade @ 2577228947168 (2 leaf nodes):
+                                                              Icteridae
+                                                              Icteriidae
+                                                          Clade @ 2577228947312 (5 leaf nodes):
+                                                            Calyptophilidae
+                                                            Clade @ 2577228947408 (4 leaf nodes):
+                                                              Zeledoniidae
+                                                              Clade @ 2577228947504 (3 leaf nodes):
+                                                                Phaenicophilidae
+                                                                Clade @ 2577228947600 (2 leaf nodes):
+                                                                  Nesospingidae
+                                                                  Spindalidae

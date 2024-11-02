@@ -1,8 +1,12 @@
 from __future__ import annotations
 from copy import deepcopy
 from io import TextIOWrapper as File
+from sys import maxsize as INT_MAX
 
-# --------------------------------------
+# --------------------------------------------------------------------------------------------------
+
+def isDigit(char: str) -> bool:
+    return ord("0") <= ord(char) and ord(char) <= ord("9")
 
 def equalsAtPos(s: str, pos: int, target: str) -> bool:
     return s[pos : pos + len(target)] == target
@@ -22,6 +26,12 @@ def findNearestLabel(s: str, pos: int) -> tuple[str, int]:
     return (s[openingBracketPosition + startIndexOffset : closingBracketPosition],
             openingBracketPosition)
 
+def findNearestPointer(s: str, openBracketPos: int) -> str:
+    closeBracketPos: int = openBracketPos + 1
+    while s[closeBracketPos] != "}":
+        closeBracketPos += 1
+    return s[openBracketPos + 1 : closeBracketPos]
+
 def posNotX(s: str, pos: int) -> bool:
     return not (equalsAtPos(s, pos - 2, "x=") or equalsAtPos(s, pos - 3, "x=?"))
 
@@ -33,7 +43,49 @@ def posNotComment(s: str, pos: int) -> bool:
             return True
     return True
 
-# --------------------------------------
+def returnToPreviousWorkingTree(currDepthForEachTree: dict[str, int]) -> str:
+    minimumTreeName: str = ""
+    minimumTreeDepth: int = INT_MAX
+    for treeName, treeDepth in currDepthForEachTree.items():
+        if treeDepth != 0 and treeDepth < minimumTreeDepth:
+            minimumTreeName = treeName
+            minimumTreeDepth = treeDepth
+    return minimumTreeName
+
+def splitTokensByTree(tokens: list[str]) -> dict[str, list[str]]:
+
+    tokensForEachTree: dict[str, list[str]] = {}
+    currDepthForEachTree: dict[str, int] = {}
+    currWorkingTree: str = ""
+
+    for i in range(len(tokens)):
+        token: str = tokens[i]
+
+        if token[0] == "!":
+            tokensForEachTree[token[1:]] = []
+            currDepthForEachTree[token[1:]] = 1
+            currWorkingTree = token[1:]
+
+        elif token == "{":
+            if tokens[i - 1][0] != "!":
+                currDepthForEachTree[currWorkingTree] += 1
+            tokensForEachTree[currWorkingTree].append(token)
+
+        elif token == "}":
+            currDepthForEachTree[currWorkingTree] -= 1
+            tokensForEachTree[currWorkingTree].append(token)
+            if currDepthForEachTree[currWorkingTree] == 0:
+                currWorkingTree = returnToPreviousWorkingTree(currDepthForEachTree)
+        
+        else:
+            tokensForEachTree[currWorkingTree].append(token)
+
+    for treeName in tokensForEachTree:
+        tokensForEachTree[treeName] = tokensForEachTree[treeName][1 : -1]
+
+    return tokensForEachTree
+
+# --------------------------------------------------------------------------------------------------
 
 class Node:
 
@@ -43,20 +95,37 @@ class Node:
 
     def isLeaf(self: Node) -> bool:
         return len(self.descendants) == 0
+    
+    def numLeaves(self: Node) -> int:
+        if self.isLeaf():
+            return 1
+        else:
+            return sum([node.numLeaves() for node in self.descendants])
 
     def display(self: Node, level: int) -> None:
         displayName: str = self.name if self.name != "" else f"Clade @ {id(self)}"
+        suffix: str = f" ({self.numLeaves()} leaf nodes)" if "idae" not in self.name else ""
         colon: str = ":" if not self.isLeaf() else ""
-        print(4 * level * " " + displayName + colon)
+        print(2 * level * " " + displayName + suffix + colon)
         for descendant in self.descendants:
             descendant.display(level + 1)
 
-# --------------------------------------
+    def checkForReplacements(self: Node, trees: list[AnimalTree]) -> None:
+        for i in range(len(self.descendants)):
+            descendant: Node = self.descendants[i]
+            if not descendant.isLeaf():
+                descendant.checkForReplacements(trees)
+            elif descendant.name[0] == "@":
+                pointer: str = descendant.name[1:]
+                indexForPointer: int = AnimalTree.findIndexForPointer(trees, pointer)
+                self.descendants[i] = AnimalTree.recombineIntoSingleTree(trees, indexForPointer).root
+
+# --------------------------------------------------------------------------------------------------
 
 class AnimalTree:
 
     @staticmethod
-    def parseFromTokens(tokens: list[str]) -> AnimalTree:
+    def parseFromTokensSingleTree(tokens: list[str]) -> AnimalTree:
         
         currentLevel: int = 0
         root: Node = Node()
@@ -73,9 +142,35 @@ class AnimalTree:
                 levelToNode[currentLevel].descendants.append(Node(token))
 
         return AnimalTree(root)
+    
+    @staticmethod
+    def parseFromTokensMultipleTrees(tokens: dict[str, list[str]]) -> list[AnimalTree]:
+        trees: list[AnimalTree] = []
+        for treeName, treeTokens in tokens.items():
+            trees.append(AnimalTree.parseFromTokensSingleTree(treeTokens))
+            trees[-1].root.name = treeName
+        return trees
+    
+    @staticmethod
+    def recombineIntoSingleTree(trees: list[AnimalTree], rootIndex: int) -> AnimalTree:
+        rootTree: AnimalTree = trees[rootIndex]
+        rootTree.root.checkForReplacements(trees)
+        return rootTree
+    
+    @staticmethod
+    def findIndexForPointer(trees: list[AnimalTree], pointer: str) -> int:
+        for i in range(len(trees)):
+            if trees[i].root.name == pointer:
+                return i
+        raise RuntimeError("no matching tree for pointer has been found")
+    
+    @staticmethod
+    def parseFromTokens(tokens: list[str]) -> AnimalTree:
+        trees: list[AnimalTree] = AnimalTree.parseFromTokensMultipleTrees(splitTokensByTree(tokens))
+        return AnimalTree.recombineIntoSingleTree(trees, 0)
 
     @staticmethod
-    def parseFromFile(filename: str) -> AnimalTree:
+    def parseFromFile(filename: str, rootNodeName: str) -> AnimalTree:
         
         file: File = open(filename, "r")
         content: str = file.read()
@@ -91,10 +186,15 @@ class AnimalTree:
                 family, pos = findNearestLabel(content, i)
                 if posNotX(content, pos) and posNotComment(content, pos):
                     tokens.append(family)
+            elif content[i] == "{" and content[i + 1] != "{" and content[i - 1] != "{":
+                pointer: str = findNearestPointer(content, i)
+                symbol: str = "@" if isDigit(content[i - 2]) else "!"
+                tokens.append(symbol + pointer)
             elif equalsAtPos(content, i, "/includeonly"):
                 break
 
-        return AnimalTree.parseFromTokens(tokens[1 : -1])
+        tokens = ["!" + rootNodeName] + tokens[1 : -1]
+        return AnimalTree.parseFromTokens(tokens)
 
     def __init__(self: AnimalTree, root: Node) -> None:
         self.root: Node = root
@@ -109,9 +209,9 @@ class AnimalTree:
         print()
         self.root.display(level = 0)
 
-# --------------------------------------
+# --------------------------------------------------------------------------------------------------
 
-AnimalTree.parseFromFile("passerines.txt").display()
+AnimalTree.parseFromFile("passerines.txt", "PASSERIFORMES").display()
 exit()
 
 animalTree: AnimalTree = AnimalTree.parseFromFile("passerines.txt")
