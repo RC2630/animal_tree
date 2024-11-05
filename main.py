@@ -68,7 +68,7 @@ def splitTokensByTree(tokens: list[str]) -> dict[str, list[str]]:
 
         elif token == "{":
             if tokens[i - 1][0] != "!":
-                currDepthForEachTree[currWorkingTree] += 1
+                currDepthForEachTree[currWorkingTree] += 1 # TODO: increment for all open trees
             tokensForEachTree[currWorkingTree].append(token)
 
         elif token == "}":
